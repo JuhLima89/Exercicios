@@ -25,9 +25,14 @@ docker run meu-echo
 *Crie um container com Nginx que sirva uma página HTML customizada (index.html). Monte um volume local com esse arquivo para que ele apareça na raiz do site (/usr/share/nginx/html). Acesse a página via http://localhost.*
 
 ```
-docker run -d -p 8080:80 --name site-nginx   -v /home/julima/Projects/Exercicios/N02/index-2.html:/usr/share/nginx/html/index.html   nginx:alpine
+docker run -d -p 8080:80 --name site-nginx   
+-v /home/julima/Projects/Exercicios/N02/index-2.html:/usr/share/nginx/html/index.html   
+nginx:alpine
 ```
-![Rancher rodando nginx](images/Rancher rodando nginx.png)
+![Rancher rodando nginx](images/rancher_rodando.png)
 
 
-![Página html rodando](images/Pagina html rodando.png)
+![Página html rodando](images/pagina_html.png)
+
+# 03:
+*Inicie um container da imagem ubuntu com um terminal interativo (bash). Navegue pelo sistema de arquivos e instale o pacote curl utilizando apt.* 
