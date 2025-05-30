@@ -236,16 +236,16 @@ O ideal é atualizar setuptools para a versão mais recente e evitar instalar pa
 Nova versão com boas práticas está na pasta N12.  
 Entre os itens modificados, adicionei um usuário não-root, usei uma imagem mais leve do python e uma versão atualizada do flask.
 
-![Boas Praticas](images/boas praticas user.png)
+![Boas Praticas](images/boas_praticas_user.png)
 
 
 
-![Pagina web](images/hello world.png)
+![Pagina web](images/hello_world.png)
 
 # 13:
 *Crie um Dockerfile que use a imagem python:3.11-slim, copie um script Python local (app.py) e o execute com CMD. O script pode imprimir a data e hora atual.*
 
-![App dockerhub](images/dockerhub app.png)
+![App dockerhub](images/dockerhub_app.png)
 
 # 13a:
 *Crie uma conta no Docker Hub.*
